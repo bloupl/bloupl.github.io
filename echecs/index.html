@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <script src="index.js"  type="text/javascript"></script>
+    <title>Le morpion trop stylé</title>
+</head>
+
+<body>
+    <p id="titre">Echec</p>
+    <table id="tableau">
+        <tr>
+            <td class="case" id="00" onclick="jouer('00')"></td>
+            <td class="case" id="10" onclick="jouer('10')"></td>
+            <td class="case" id="20" onclick="jouer('20')"></td>
+            <td class="case" id="30" onclick="jouer('30')"></td>
+            <td class="case" id="40" onclick="jouer('40')"></td>
+            <td class="case" id="50" onclick="jouer('50')"></td>
+            <td class="case" id="60" onclick="jouer('60')"></td>
+            <td class="case" id="70" onclick="jouer('70')"></td>
+            <td>0</td>
+
+        </tr>
+        <tr>
+            <td class="case" id="01" onclick="jouer('01')"></td>
+            <td class="case" id="11" onclick="jouer('11')"></td>
+            <td class="case" id="21" onclick="jouer('21')"></td>
+            <td class="case" id="31" onclick="jouer('31')"></td>
+            <td class="case" id="41" onclick="jouer('41')"></td>
+            <td class="case" id="51" onclick="jouer('51')"></td>
+            <td class="case" id="61" onclick="jouer('61')"></td>
+            <td class="case" id="71" onclick="jouer('71')"></td>    
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="case" id="02" onclick="jouer('02')"></td>
+            <td class="case" id="12" onclick="jouer('12')"></td>
+            <td class="case" id="22" onclick="jouer('22')"></td>
+            <td class="case" id="32" onclick="jouer('32')"></td>
+            <td class="case" id="42" onclick="jouer('42')"></td>
+            <td class="case" id="52" onclick="jouer('52')"></td>
+            <td class="case" id="62" onclick="jouer('62')"></td>
+            <td class="case" id="72" onclick="jouer('72')"></td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td class="case" id="03" onclick="jouer('03')"></td>
+            <td class="case" id="13" onclick="jouer('13')"></td>
+            <td class="case" id="23" onclick="jouer('23')"></td>
+            <td class="case" id="33" onclick="jouer('33')"></td>
+            <td class="case" id="43" onclick="jouer('43')"></td>
+            <td class="case" id="53" onclick="jouer('53')"></td>
+            <td class="case" id="63" onclick="jouer('63')"></td>
+            <td class="case" id="73" onclick="jouer('73')"></td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td class="case" id="04" onclick="jouer('04')"></td>
+            <td class="case" id="14" onclick="jouer('14')"></td>
+            <td class="case" id="24" onclick="jouer('24')"></td>
+            <td class="case" id="34" onclick="jouer('34')"></td>
+            <td class="case" id="44" onclick="jouer('44')"></td>
+            <td class="case" id="54" onclick="jouer('54')"></td>
+            <td class="case" id="64" onclick="jouer('64')"></td>
+            <td class="case" id="74" onclick="jouer('74')"></td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td class="case" id="05" onclick="jouer('05')"></td>
+            <td class="case" id="15" onclick="jouer('15')"></td>
+            <td class="case" id="25" onclick="jouer('25')"></td>
+            <td class="case" id="35" onclick="jouer('35')"></td>
+            <td class="case" id="45" onclick="jouer('45')"></td>
+            <td class="case" id="55" onclick="jouer('55')"></td>
+            <td class="case" id="65" onclick="jouer('65')"></td>
+            <td class="case" id="75" onclick="jouer('75')"></td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td class="case" id="06" onclick="jouer('06')"></td>
+            <td class="case" id="16" onclick="jouer('16')"></td>
+            <td class="case" id="26" onclick="jouer('26')"></td>
+            <td class="case" id="36" onclick="jouer('36')"></td>
+            <td class="case" id="46" onclick="jouer('46')"></td>
+            <td class="case" id="56" onclick="jouer('56')"></td>
+            <td class="case" id="66" onclick="jouer('66')"></td>
+            <td class="case" id="76" onclick="jouer('76')"></td> 
+            <td>6</td>
+        </tr>
+        <tr>
+            <td class="case" id="07" onclick="jouer('07')"></td>
+            <td class="case" id="17" onclick="jouer('17')"></td>
+            <td class="case" id="27" onclick="jouer('27')"></td>
+            <td class="case" id="37" onclick="jouer('37')"></td>
+            <td class="case" id="47" onclick="jouer('47')"></td>
+            <td class="case" id="57" onclick="jouer('57')"></td>
+            <td class="case" id="67" onclick="jouer('67')"></td>
+            <td class="case" id="77" onclick="jouer('77')"></td>
+            <td>7</td>
+        </tr>
+        <tr >
+            <td >0</td>
+            <td >1</td>
+            <td >2</td>
+            <td >3</td>
+            <td >4</td>
+            <td >5</td>
+            <td >6</td>
+            <td >7</td>
+        </tr>
+    </table>
+
+    <input id="Bouton_jeu" type="button" value="JOUER" onclick = "initialisation()"/>
+    <p id="Texte_de_victoire"></p>
+</body>
