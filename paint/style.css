@@ -1,0 +1,165 @@
+*{/*  Toute la page */
+
+    font-size:15px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+html{/*  Background de toute la page */
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); /*cette ligne permet de faire un dégradé en passant par une couleur au milieu*/
+    width: 100%; /*  width et height 100% car sinon le html ne prend pas toute la page et y'as un fond blanc en bas*/
+    height:100%;
+}
+
+#reset{/*  Boutton nouveau dessin */
+    border:2px black solid;
+    border-radius: 10px;
+    padding:3px;
+}
+
+.input{/* Tout les inputs relatif aux nombre (dimensions et couleur perso) */
+    margin-top: 5px;
+    text-align: center;
+    height: auto;
+    width:15%;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+#dessin{/* Le tableau relatif au dessin */
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.couleur{/*  Button pour les couleurs */
+    padding:4px;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 10px;
+}
+.coul{/*  nav des choix de couleurs */
+    text-align: center;
+    padding: 5px;
+}
+
+#validation_couleur{/*  Boutton nouvelle couleur */
+    border:2px black solid;
+    border-radius: 10px;
+}
+
+
+#table_item{
+    margin:auto
+}
+.item{/*  Ensemble des Boutton cercle et droite etc*/
+    width: 22px;
+    height:22px;
+    border:4px black solid
+}
+
+#droite{ /*  Boutton droite */
+    background-image:url(images/droite.png);
+}
+
+#peinture{ /*  Boutton peinture */
+    background-image:url(images/peinture.png);
+}
+
+#cercle{ /*  Boutton cercle*/
+    background-image:url(images/cercle.png);
+}
+
+#triangle{/*  Boutton triangle*/
+    background-image:url(images/triangle.png);
+}
+
+#rectangle{/*  Boutton rectangle*/
+    background-image:url(images/rectangle.png);
+}
+
+
+/*  Toutes les couleurs */
+#noir{
+    background-color: black;
+    color:white;
+}
+
+#gris{
+    background-color: grey;
+    color:white
+}
+
+#marron{
+    background-color: rgb(75, 49, 0);
+    color:white
+}
+
+#rouge{
+    background-color: red;
+    color:white
+}
+#orange{
+    background-color:orange;
+    color:white
+}
+
+#jaune{
+    background-color:yellow;
+    color:black
+}
+
+#vert{
+    background-color:green;
+    color:white
+}
+
+#cyan{
+    background-color:cyan;
+    color:black
+}
+
+#bleu{
+    width:100px;
+    background-color:blue;
+    color:white
+}
+
+#blanc{
+    background-color: white;
+    color:black
+}
+
+#rose{
+    background-color: pink;
+    color:black
+}
+
+#vert2{
+    background-color: greenyellow;
+    color:black
+}
+
+#bleu2{
+    background-color: lightskyblue;
+    color:black
+}
+
+#violet{
+    background-color: blueviolet;
+}
+
+
+#R{
+    background-color: red;
+}
+
+#G{
+    background-color: green;
+}
+
+
+#B{
+    background-color: blue;
+}
