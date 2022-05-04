@@ -1,0 +1,6 @@
+html{/*  Background de toute la page */
+    background: linear-gradient(45deg, rgb(153, 237, 17) 5%, rgb(255, 246, 117) 30%, rgb(102, 111, 231) 70%, rgb(237, 77, 77) 95%); /*  Cette ligne effectue une translation entre les deux couleur de fin et d'arrivé en passant par celle du millieu, les % représente à quel pourcentage de la translation commencé à aller vers l'autre couleur*/
+    width: 100%; /*  width et height car sinon le html ne prend pas toute la page et y'as un fond blanc en bas*/
+    height:100%;
+    background-attachment:scroll ;
+}
