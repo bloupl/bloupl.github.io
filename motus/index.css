@@ -1,0 +1,40 @@
+td{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width:80px;
+    border:5px black solid;
+    font-size: 30px;
+}
+table{
+    text-align: center;
+    margin:auto;
+    border-collapse:collapse
+}
+*{
+    background-color: rgb(141,141,141);
+}
+
+#message_erreur{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    margin:auto;
+    width:300px;
+    border-radius: 20px;
+}
+#envoi{
+    background-color: rgb(211, 130, 130);
+    border-radius: 50px;
+    border: 5px solid black;
+}
+#reset{
+    background-color: rgb(211, 130, 130);
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+#jouer{
+    background-color: rgb(211, 130, 130);
+    border-radius: 50px;
+    border: 5px solid black;
+    margin:auto
+}
