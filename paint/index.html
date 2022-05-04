@@ -1,84 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr" id="html">
+<html>
 <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <meta charset="UTF-8">
-    <title>Projet</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
-<body id="body">
-
-    <!--J'utilise des navs pour pouvoir mettre des choses à coté sans css et que ça gère (de façon relative) assez bien l'auto-régulation selon la taille de la fenêtre-->
-    
-    <nav id="haut">
-        Nouveau dessin  :
-        <a id="reset" onclick="nouveau()">Nouveau dessin</a> </br>
-
-        <label for="largeur">Entrez la largeur</label>
-        <input  class="input" type="number" nom="largeur" id="largeur" value="0" min="0" > </br>
-
-        <label for="hauteur">Entrez la hauteur</label>
-        <input class="input" type="number" nom="hauteur" id="hauteur" value="0" min="0" > </br>
-
-        <label for="hauteur">Taille pixels</label>
-        <input class="input" type="text" nom="pixel" id="pixel" value="" min="0" > </br>
-
-        <a href="tuto/tuto.html" target="_blank" onclick="destruction_tuto()" id="tuto">Tuto</a>
-
-    </nav>
-    <!--On crée un tableau pour pouvoir le remplir avec js (fonction nouveau)-->
-    <table id="dessin">
-    </table>
 
 
-    <!--on utilise des nav pour la même raison qu'avant que l'on remplis avec les couleurs voulu-->
-    <nav class="coul" id="couleur1">
-        
-        <a class="couleur" onclick="change('noir')" id="noir">noir</a>
-        <a class="couleur" onclick="change('gris')" id="gris">gris</a>
-        <a class="couleur" onclick="change('marron')" id="marron">marron</a>
-        <a class="couleur" onclick="change('rouge')" id="rouge">rouge</a>
-        <a class="couleur" onclick="change('orange')" id="orange">orange</a>
-        <a class="couleur" onclick="change('jaune')" id="jaune">jaune</a>
-        <a class="couleur" onclick="change('vert')" id="vert">vert</a>
-
-    </nav>
+<html>
 
 
-    <nav class="coul" id="couleur2">
-
-        <a class="couleur" onclick="change('cyan')" id="cyan">cyan</a>
-        <a class="couleur" onclick="change('bleu')" id="bleu">bleu</a>
-        <a class="couleur" onclick="change('blanc')" id="blanc">blanc</a>
-        <a class="couleur" onclick="change('rose')" id="rose">rose</a>
-        <a class="couleur" onclick="change('vert2')" id="vert2">vert</a>
-        <a class="couleur" onclick="change('bleu2')" id="bleu2">bleu</a>
-        <a class="couleur" onclick="change('violet')" id="violet">violet</a>
-
-    </nav>
-
-    <!--Tableau pour faire les deux items dispo (cercle et droite)-->
-    <table id="table_item">
-        <tr>
-            <td id="cercle" class="item" onclick="acti_cercle()"></td>
-            <td id="droite" class="item" onclick="acti_droite()"></td>
-            <td id="triangle"  class="item" onclick="acti_triangle()"></td>
-            <td id="rectangle" class="item" onclick="acti_rectangle()"></td>
-            <td id="peinture" class="item" onclick="acti_peinture()"></td>
-        </tr>
-    </table>
-    <!--nav pour les couleurs personalisés-->
-    <nav class="coul" id="choix_perso">
-    </nav>
-
-
-    <!--div pour la selection et l'ajout de la nouvelle couleur-->
-    <div id="new_couleur">
-    <a id="validation_couleur" onclick="change('nouv')">Nouvelle couleur</a><br>
-    ↓<br>
-    <input type="color" id="couleur_perso" name="couleur_perso">
-    </div>
-    <br>
-</body>
+    oui
 </html>
-
