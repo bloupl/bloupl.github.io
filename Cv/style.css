@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+}
+
+
+#photo{
+    transform: translate(80%,-80px);
+}
+#informations{
+    background-color: rgb(189, 186, 186);
+    font-size: 22px;
+    border: 5px black solid;
+    background : rgb(189,186,186) url(images/fond.jfif) no-repeat scroll 50% 10%;
+}
+
+#info{
+    background-color: gray;
+    width: 500px;
+    border-radius: 20px;
+    border: 5px black solid;
+}
+
+
+#Poste{
+    text-align: right;
+}
+
+#profil{
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: 22px;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    border: 5px black solid;
+}
+
+#Atouts{
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    border: 5px black solid;
+}
+
+
+.bar {
+    transform: translateX(150px);
+    width: 74%;
+    height: 16px;
+    border-radius: 8px;
+    position: relative;
+    background: #f2f2f2;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+
+  }
+
+#Atouts{
+    line-height: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.description{
+    font-size: 22px;
+    transform: translateX(-150px)
+}
+
+#percentage_patriote {
+    background: rgb(55, 0, 255);
+    height: 16px;
+    border-radius: 8px;
+    width:100%;
+}
+
+#percentage_python{
+    background: rgb(55, 0, 255);
+    height: 16px;
+    border-radius: 8px;
+    width:65%;
+}
+
+#percentage_mathématiques{
+    background: rgb(55, 0, 255);
+    height: 16px;
+    border-radius: 8px;
+    width:75%;
+}
+
+#percentage_curieux{
+    background: rgb(55, 0, 255);
+    height: 16px;
+    border-radius: 8px;
+    width:85%;
+}
+
+#percentage_bidouille{
+    background: rgb(55, 0, 255);
+    height: 16px;
+    border-radius: 8px;
+    width:95%;
+}
+
+#percentage_analytique{
+    background: rgb(55, 0, 255);
+    height: 16px;
+    border-radius: 8px;
+    width:85%;
+}
