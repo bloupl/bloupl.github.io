@@ -1,0 +1,196 @@
+body {
+  background-color: #303030;
+  margin: 0;
+  padding: 0;
+  --color-blanc: #e2e2e2;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h1,
+h2,
+p {
+  font-family: "Red Hat Text", sans-serif;
+  
+  color: var(--color-blanc);
+
+}
+
+.titre-header-all {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.title-header {
+  margin: 45px;
+  font-size: 35px;
+}
+
+.choice_div {
+  float: right;
+  margin: 45px;
+
+}
+select {
+  color: var(--color-blanc);
+  background-color: #252525;
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin: 0 15px;
+}
+
+
+#choice_select {
+  color: var(--color-blanc);
+  background-color: #252525;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+
+#choice_select:hover {
+  background-color: #222222;
+}
+
+
+
+
+nav {
+  /*display: inline;*/
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: rgb(34, 34, 34);
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+
+  text-align: center;
+  justify-content: center;
+}
+
+label.logo {
+  float: left;
+  color: var(--color-blanc);
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+
+.img-btc-ttl {
+  width: 6%;
+}
+
+.img-eth-ttl {
+  width: 4.5%;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  display: block;
+  justify-content: center;
+}
+
+cards {
+  width: 90%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.btc,
+.ethereum {
+  /*display: grid;*/
+  max-width: 600px;
+  min-width: 350px;
+  
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(50px, 60px) 1fr;
+  grid-template: "info" "chart";
+  border-radius: 30px;
+  padding: 35px;
+}
+
+.btc {
+  box-shadow: 10px 10px 20px 1px rgba(247, 147, 26, 0.1);
+ /* display: none;*/
+}
+
+.ethereum {
+  box-shadow: 10px 10px 20px 1px rgba(78, 56, 216, 0.15);
+  display: none;
+}
+
+.asset-info {
+  grid-area: info;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 5%;
+}
+
+.title {
+  display: inline-flex;
+  padding:0 15px 15px 15px;
+}
+
+
+card h1 {
+  margin-left: 10px;
+}
+
+#btcChart,
+#ethereumChart {
+  grid-area: chart;
+  border-radius: 0;
+  margin-top: auto;
+}
+
+
+
+
+
+
+
+.usd-div, .eur-div {
+  display: flex;
+  margin: 35px 35px 35px 50%;
+
+}
+
+
+.info-total h1 {
+  margin: 0 85px;
+}
+
+#prix_usd, #prix_eur {
+  font-size: 25px;
+  margin: 0;
+}
